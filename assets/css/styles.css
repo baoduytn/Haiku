@@ -1,5 +1,12 @@
 /* styles.css */
 
+body {
+	margin: 1rem;
+	background-color: black;
+	color: whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+}
 * {
 	font-family: Arial;
 }
