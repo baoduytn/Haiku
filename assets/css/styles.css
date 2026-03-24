@@ -11,6 +11,8 @@ body {
 .grid-continer {
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr; gap: 2rem;
+	grid-template-columns: repeat(auo-fit, minmax(320px, 1fr));
+	margin: 10% 4rem 0 4rem;
 } 
 .last { 
 	padding-bottom: 2rem;
