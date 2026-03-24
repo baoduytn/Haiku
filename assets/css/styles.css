@@ -7,6 +7,16 @@ body {
 	font-size: 5rem;
 	overflow: hidden;
 }
+
+.grid-continer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr; gap: 2rem;
+} 
+.last { 
+	padding-bottom: 2rem;
+	border-bottom: 2px solid rgb (220, 200, 180);
+}
+
 * {
 	font-family: Arial;
 }
