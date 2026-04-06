@@ -22,7 +22,7 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 3rem;
-    margin: 10% 30rem 0 20rem;
+    margin: 10% 40rem 0 20rem;
 } 
 
 .last { 
