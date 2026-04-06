@@ -18,7 +18,16 @@ function randomNumber(min, max) {
 let divs = document.querySelectorAll(".grid-container div");
 function randomize() {
     console.log(divs.length, "randomize!")
-} 
+    divs.forEach(function(div) {
+        let scale = randomNumber(.5, 1.2);
+        let translateX = randomNumber(0, 50);
+        let translateY = randomNumber(0, 20);
+        let rotate = randomNumber(0, 360);
+        div.style.transform = 
+           ' scale(${scale})
+            translateX(${translateX}%, ${translateY}%)
+            rotate(${rotate}deg)';) 
+})
 
 /* let colors = ["purple", "green", "blue"];
 colors[randomNumber(0,colors.length-1)]
